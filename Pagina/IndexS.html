@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="StylesS.css">
+</head>
+<body>
+
+  <header>
+    
+    <nav class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container2">
+              <img width="50" height="50" src="Imagenes\bone.png" alt="hueso">
+              <a href="index.html" class="logo" class="navbar-brand">Perrometro</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="IndexS.html" class="nav-link">Iniciar sesion (Estas aqui)</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="IndexA.html" class="nav-link">Acerca de los perros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="IndexC.html" class="nav-link">Creditos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="IndexSS.html" class="nav-link">Soporte</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+  </header>
+
+
+  <div class="container">
+    <div class="login-container">
+      <h1>Iniciar sesión</h1>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="username">Usuario:</label>
+          <input type="text" id="username" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" class="form-control" required>
+        </div>
+        <div class="error-message" id="error-message"></div>
+        <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
+      </form>
+    </div>
+
+    <img src="Imagenes\huesoreal.png" class="card-img-top" alt="huesoreal>
+
+  </div>
+                                                                
+                                                              
+
+  <script src="ScriptS.js"></script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+body {
+    background-color: #fff0cf;
+    padding-top: 80px;
+    background-image: url("C:\Users\User\Documents\Programacion\Tp grupal solo\Html\Imagenes\Fondo 1.jpg");
+  }
+  
+/*cards*/
+
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .caracteristicas {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+
+
+
+  /* Header */
+
+
+
+  header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+  }
+
+  /*FORM*/
+
+  .adoption-form {
+    padding: 40px 0;
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .adoption-form .container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .adoption-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .formulario {
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  /*FOOTER*/
+
+  .footer {
+    background-color: #f8f9fa31;
+    padding: 40px 0;
+    color: #333;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .footer h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  /*PROCEDIMIENTO*/
+
+  .adoption-summary {
+    padding: 40px 0;
+    color: #333;
+  }
+  
+  .adoption-summary h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .adoption-summary p {
+    margin-bottom: 20px;
+  }
+  
+  .adoption-summary h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .adoption-summary ol,
+  .adoption-summary ul {
+    margin-left: 30px;
+  }
+  
+  .adoption-summary ol li,
+  .adoption-summary ul li {
+    margin-bottom: 5px;
+  }
+
+  /*LOGO*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+  .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: background-color 0.5s;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    transition: color 0.3s;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInDown 1s ease-in-out forwards;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  

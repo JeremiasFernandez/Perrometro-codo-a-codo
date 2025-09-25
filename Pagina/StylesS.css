@@ -1,0 +1,86 @@
+body {
+    background-color: #ccad74;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .container label {
+    font-weight: bold;
+  }
+  
+  .container .error-message {
+    color: #dc3545;
+    margin-top: 10px;
+  }
+
+    /*LOGO*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+    .logo {
+      font-family: 'Pacifico', cursive;
+      font-size: 36px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      transition: background-color 0.5s;
+    }
+    
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 24px;
+    }
+    
+    .navbar-nav .nav-link {
+      transition: color 0.3s;
+    }
+    
+    .content {
+      text-align: center;
+      padding: 150px 0;
+    }
+    
+    .content h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: fadeInDown 1s ease-in-out forwards;
+    }
+    
+    .content p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      opacity: 0;
+      animation: fadeInUp 1s ease-in-out forwards;
+    }
+
+.hola {
+    background-color: #ffffff;
+}
+    

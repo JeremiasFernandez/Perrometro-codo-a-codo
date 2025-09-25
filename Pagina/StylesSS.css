@@ -1,0 +1,75 @@
+.encabezado {
+    margin-bottom: 20px;
+    background-color: #343a40;
+  }
+  
+  .encabezado .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .encabezado .navbar-nav .nav-link {
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  .encabezado .navbar-nav .nav-link:hover {
+    color: #e9ecef;
+  }
+  
+
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    max-height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

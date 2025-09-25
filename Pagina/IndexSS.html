@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perrometro</title>
+  <link rel="stylesheet" href="StylesSS.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Perrometro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="IndexS.html" class="nav-link">Iniciar sesion</a>
+            </li>
+            <li class="nav-item">
+              <a href="IndexA.html" class="nav-link">Acerca de los perros</a>
+            </li>
+            <li class="nav-item">
+              <a href="IndexC.html" class="nav-link">Creditos</a>
+            </li>
+            <li class="nav-item">
+              <a href="IndexSS.html" class="nav-link">Soporte (Estas aqui)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="header">
+      <h1>Contacta con nosotros</h1>
+    </div>
+
+    <div class="card">
+      <div class="card-header">Chat de Soporte</div>
+      <div class="card-body">
+        <div id="chat-messages"></div>
+        <div class="input-container">
+          <input type="text" id="message-input" placeholder="Escribe tu mensaje...">
+          <button id="send-button" onclick="enviarFormulario()" >Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="ScriptSS.js"></script>
+
+  <!-- Contenido de la página -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

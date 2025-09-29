@@ -14,7 +14,5 @@ Este es un proyecto desarrollado para el curso de **HTML, CSS y JavaScript**, cu
 ## Funcionalidades
 - Página principal con información sobre perros.
 - Diseño responsive que se adapta a distintos dispositivos.
-- Uso de JavaScript para agregar interactividad (ejemplo: botones, formularios, animaciones o validaciones).
-- [Podés detallar aquí alguna funcionalidad especial que hayas implementado].
-
+- Uso de JavaScript para agregar interactividad
 ---
